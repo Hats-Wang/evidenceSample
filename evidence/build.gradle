@@ -48,9 +48,9 @@ List jackson = [
 
 // In this section you declare the dependencies for your production and test code
 dependencies {
-    compile log4j,jaxb,jackson
+    implementation log4j,jaxb,jackson
 
-	compile ("org.fisco-bcos:web3sdk:2.6.4")
+    implementation ("org.fisco-bcos:web3sdk:2.6.4")
 }
 
 configurations {
